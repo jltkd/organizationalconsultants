@@ -1,0 +1,28 @@
+/*
+
+Theme Name: X &ndash; Child Theme
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+
+/**** General ****/
+h1,h2,h3,h4,h5,h6 { margin: 0!important; padding: 0!important; }
+h2.h-custom-headline.center-text.h3.accent { margin-bottom: 20px!important; }
+
+/*** NAVBAR ***/
+.x-navbar { border-bottom: none; }
+
+/*** BLOG ***/
+.entry-title { text-align: left; }
+.p-meta { text-align: left; opacity:100; }
+.p-meta>span { margin: 0; color: #76c4c8; }
+.blog .entry-content { padding: 0; }
+.meta-comments { display: none; }
+.hentry .entry-wrap { border-top: none; }
+.blog .hentry .entry-wrap { padding-bottom: 0; }
+.entry-title { font-size: 150%; }
